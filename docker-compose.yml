@@ -44,7 +44,7 @@ services:
       - DISCOURSE_POSTGRESQL_PASSWORD=bitnami1
       - DISCOURSE_HOST=discourse
       - DISCOURSE_PORT=3000
-      - DISCOURSE_HOSTNAME=www.example.com
+      - DISCOURSE_HOSTNAME=www.discourse.local
 volumes:
   postgresql_data:
     driver: local
